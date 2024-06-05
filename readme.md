@@ -100,19 +100,19 @@ Champions League API é uma aplicação que permite gerenciar jogadores e clubes
 
 ```json
     {
-        id: 1,
-        name: "Lionel Messi",
-        club: "Paris Saint-Germain",
-        nationality: "Argentina",
-        position: "Forward",
-        statics: {
-            Overall: 93,
-            Pace: 85,
-            Shooting: 92,
-            Passing: 91,
-            Dribbling: 95,
-            Defending: 38,
-            Physical: 65,
+        "id": 1,
+        "name": "Lionel Messi",
+        "club": "Paris Saint-Germain",
+        "nationality": "Argentina",
+        "position": "Forward",
+        "statics": {
+            "Overall": 93,
+            "Pace": 85,
+            "Shooting": 92,
+            "Passing": 91,
+            "Dribbling": 95,
+            "Defending": 38,
+            "Physical": 65,
         }
     }
 ```
