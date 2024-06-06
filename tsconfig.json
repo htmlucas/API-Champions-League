@@ -6,6 +6,9 @@
     "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
     "strict": true,                                      /* Enable all strict type-checking options. */    
     "skipLibCheck": true ,                                /* Skip type checking all .d.ts files. */
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "experimentalDecorators": true,                       /* na video aula é dito que trabalharemos com metadata e precisaremos habilitar esses dois decorators */
+    "emitDecoratorMetadata": true,                         /* aqui mesma coisa */
+    "allowJs": true                                       /* iremos trabalhar com javascript no momento que configuraremos com typeorm */
   }
 }

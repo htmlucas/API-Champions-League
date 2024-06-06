@@ -6,7 +6,8 @@
     "dist": "tsup src",
     "start:dev": "tsx --env-file=.env src/server.ts",
     "start:watch": "tsx --watch --env-file=.env src/server.ts",
-    "start:dist": "npm run dist && node dist/src/index.js"
+    "start:dist": "npm run dist && node dist/src/index.js",
+    "typeorm": "node ./node_modules/typeorm/cli.js"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,9 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
   }
 }
