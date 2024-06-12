@@ -3,7 +3,7 @@ import { router } from "./routes"
 import cors from "cors"
 
 function createApp(){
-    const app = express()
+    const app = express()    
 
     app.use(json())    
     app.use('/api',router)
